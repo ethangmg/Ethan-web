@@ -4,7 +4,7 @@
 
 export default function Main() {
   return (
-    <main >      
+    <main className="bg-gradient-reverse-blackCherry ">      
     </main>
   );
 }
