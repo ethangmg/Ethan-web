@@ -14,7 +14,9 @@ export default function About() {
       </div>
       <div className='my-20 bg-gray-950 bg-gradient-teal h-screen '>
         <div>
-          <h2 className='text-2xl'>Proffessional Work Experience</h2>
+          <div className='text-2xl text-rose-800 pb-2 bg-white border-2 rounded-r-lg border-white w-56 mt-5'>
+            <h2 >Proffessional Work Experience</h2>
+          </div>
           <div className='flex flex-col justify-evenly h-auto border-b-2 border-white m-5'>
             <p className='text-lg'>JUNIOR WEB DEVELOPER</p>
             <p className='text-sm mb-5'>ENGLISH LEARN INSTITUTE</p>
@@ -34,7 +36,9 @@ export default function About() {
           </div>
         </div>
         <div className='bg-gradient-reverse-blackCherry py-2'>
-          <h2 className='text-2xl'>Personal Experience</h2>
+          <div className='text-2xl text-rose-800 pb-2 bg-white border-2 rounded-r-lg border-white w-56 mt-5'>
+            <h2>Personal Experience</h2>
+          </div>
           <div className='flex flex-col justify-evenly h-auto border-b-2 border-white m-5'>
             <div className='mb-5'>
               <p className='text-lg'>JUNIOR WEB DEVELOPER</p>
