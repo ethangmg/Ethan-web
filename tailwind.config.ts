@@ -19,6 +19,9 @@ const config: Config = {
       },
       colors:{
         blackCherry:'#110409'
+      },
+      boxShadow: {
+        '3xl':"-1px -1px 37px 11px rgba(190,18,60,0.75);"
       }
     },
   },
