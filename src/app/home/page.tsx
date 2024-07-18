@@ -13,32 +13,37 @@ export default function Home() {
 
   return (
     <div className=' h-screen w-full bg-gray-950 bg-gradient-teal flex flex-row justify-center content-center items-center '>
-      <div id='0' className='hover:z-10 bg-gradient-reverse-blackCherry h-screen w-48 rounded-lg flex flex-col text-center items-center justify-evenly content-center transition ease-in-out delay-150  hover:-translate-x-0 hover:absolute hover:w-96 hover:h-5/6 hover:scale-75 '>
+      <div id='0' className='hover:z-10 bg-gradient-reverse-blackCherry h-screen w-48 rounded-lg flex flex-col text-center items-center justify-center content-center transition ease-in-out delay-150  hover:-translate-x-0 hover:-translate-y-14 hover:absolute hover:w-96 hover:h-5/6 hover:scale-75 hover:shadow-3xl'>
         <div className=''>
           <Image
-            className='rounded-full my-5 '
+            className='rounded-full my-5 w-52 h-52 hover:w-72 hover:h-72'
             src={Image1}
-            width={100}
-            height={90}
             alt='Sample Image'
           />
         </div>
-        <div>
-          <h1 className='text-3xl font-bold text-white'>Nissan</h1>
-        </div>
-        <div>
-          <h4>Japan Car</h4>
-        </div>
-        <div className='flex justify-center w-full'>
-          <FaLinkedin />
-          <div className='mx-2'>
-            <FaGithub />
+        <div className='my-10'>
+          <div>
+            <h1 className='text-3xl font-bold text-white mb-3'>Ethan Martinez</h1>
           </div>
-          <FaFacebook />
+          <div className='text-xl'>
+            <h4>Frontend Developer</h4>
+          </div>
+        </div>
+        <div className='flex justify-evenly w-40 text-3xl'>
+          <div>
+            <a href='https://www.linkedin.com/in/ethan-mart%C3%ADnez-553a9b289/'>
+              <FaLinkedin />
+            </a>
+          </div>
+          <div>
+            <a href='https://github.com/ethangmg'>
+              <FaGithub />
+            </a>
+          </div>
         </div>
       </div>
 
-      <div id='1' className=' hover:z-0 bg-transparent backdrop-blur-lg h-screen w-48 rounded-lg flex flex-col text-center items-center justify-evenly content-center transition ease-in-out delay-150 hover:-translate-x-0 hover:absolute hover:w-11/12 hover:h-screen hover:scale-75 hover:shadow-2xl hover:shadow-rose-400'>
+      <div id='1' className=' hover:z-0 bg-transparent backdrop-blur-lg h-screen w-48 rounded-lg flex flex-col text-center items-center justify-evenly content-center transition ease-in-out delay-150 hover:-translate-x-0 hover:-translate-y-14 hover:absolute hover:w-11/12 hover:h-screen hover:scale-75 hover:shadow-3xl hover:px-5'>
         <div className='border-b-2 border-white border-double h-max '>
           <div className='text-start mb-2 text-slate-200'>
             <h1 className={`text-2xl`}>Resume</h1>
