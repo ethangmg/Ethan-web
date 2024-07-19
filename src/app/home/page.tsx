@@ -12,7 +12,7 @@ import { GiSkills } from "react-icons/gi";
 export default function Home() {
 
   return (
-    <div className=' h-screen w-full bg-gray-950 bg-gradient-teal flex flex-row justify-center content-center items-center '>
+    <div className=' h-screen w-full bg-gray-950 bg-gradient-teal flex flex-row justify-center content-center items-center text-white'>
       <div id='0' className='hover:z-10 bg-gradient-reverse-blackCherry h-screen w-48 rounded-lg flex flex-col text-center items-center justify-center content-center transition ease-in-out delay-150  hover:-translate-x-0 hover:-translate-y-14 hover:absolute hover:w-96 hover:h-5/6 hover:scale-75 hover:shadow-3xl'>
         <div className=''>
           <Image

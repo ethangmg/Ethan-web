@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function About() {
   return (
 
-    <div className='bg-gradient-reverse-blackCherry h-screen w-screen mb-16 rounded-lg text-center items-center flex flex-col pt-1'>
+    <div className='bg-gradient-reverse-blackCherry h-screen w-screen mb-16 rounded-lg text-center items-center flex flex-col pt-1 text-white'>
       <div className=''>
         <h1 className='text-2xl text-rose-800 pb-2 bg-white border-2 rounded-r-lg border-white w-56 mt-5'>Personal Resume</h1>
         <p className='text-sm p-3'>
