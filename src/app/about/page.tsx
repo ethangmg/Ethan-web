@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 export default function About() {
   return (
 
@@ -70,6 +70,9 @@ export default function About() {
                 •Use Libraries for Form Management and Validation such as react-form-hook or Formik
               </li>
             </ul>
+            <div>
+              <Link href={'/skills'}>More Skills</Link>
+            </div>
           </div>
         </div>
       </div>
