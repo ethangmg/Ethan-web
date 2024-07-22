@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/about", "src/app/Components/Nav.js", "src/app/Main/page.js", "src/app/Layout/page.js", "src/app/home"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/about", "src/app/Components/Nav.js", "src/app/Main/page.js", "src/app/Layout/page.js", "src/app/home", "src/app/cv/PdfViewer.js"],
   "exclude": ["node_modules"]
 }
