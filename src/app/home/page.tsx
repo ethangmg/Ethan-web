@@ -5,7 +5,6 @@ import React from 'react'
 import Image1 from '../assets/Nissan.jpg'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 
 
