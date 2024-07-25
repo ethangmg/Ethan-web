@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Skills() {
   return (
-    <div className='h-screen bg-gradient-reverse-blackCherry flex flex-col items-center text-white sm:w-full '>
+    <div className='h-screen bg-gradient-reverse-blackCherry flex flex-col items-center text-white sm:w-full md:w-full sm:h-full'>
       <div className='m-5 text-2xl flex flex-row w-screen sm:w-full'>
         <div className='border-2 border-l-0 border-white w-1/2 flex flex-row content-end justify-end text-end pr-2 rounded-r-lg'>
           <h1>Skills</h1>
