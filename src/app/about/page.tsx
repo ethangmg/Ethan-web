@@ -1,18 +1,23 @@
 import React from 'react'
 import Link from 'next/link'
-export default function About() {
-  return (
 
-    <div className='bg-gradient-reverse-blackCherry h-screen w-screen mb-16 rounded-lg text-center items-center flex flex-col pt-1 text-white'>
-      <div className=''>
-        <h1 className='text-2xl text-rose-800 pb-2 bg-white border-2 rounded-r-lg border-white w-56 mt-5'>Personal Resume</h1>
-        <p className='text-sm p-3'>
-          Organized, self-taught Frontend web developer, with excellent interpersonal skills, I always like to be feeding
-          back my knowledge. I excel in teamwork, I look for a job in Wich I can further develop my skills and also help my
-          colleagues, the company and the client
-        </p>
+export default function About() {
+
+  return (
+    <div className='bg-gradient-reverse-blackCherry h-screen w-screen  rounded-lg text-center items-center flex flex-col  text-white sm:w-full sm:h-full'>
+      <div className='sm:w-3/4 border-2 border-white my-2'>
+        <div className='text-2xl text-rose-800 bg-white border-2 rounded-r-lg border-white w-56 '>
+          <h1>Personal Resume</h1>
+        </div>
+        <div className='text-sm'>
+          <p >
+            Organized, self-taught Frontend web developer, with excellent interpersonal skills, I always like to be feeding
+            back my knowledge. I excel in teamwork, I look for a job in Wich I can further develop my skills and also help my
+            colleagues, the company and the client
+          </p>
+        </div>
       </div>
-      <div className='my-20 bg-gray-950 bg-gradient-teal h-screen '>
+      <div className=' bg-gray-950 bg-gradient-teal h-screen border-2 border-white sm:h-auto'>
         <div>
           <div className='text-2xl text-rose-800 pb-2 bg-white border-2 rounded-r-lg border-white w-56 mt-5'>
             <h2 >Proffessional Work Experience</h2>
@@ -35,8 +40,8 @@ export default function About() {
             </ul>
           </div>
         </div>
-        <div className='bg-gradient-reverse-blackCherry py-2'>
-          <div className='text-2xl text-rose-800 pb-2 bg-white border-2 rounded-r-lg border-white w-56 mt-5'>
+        <div className='bg-gradient-reverse-blackCherry my-2'>
+          <div className='text-2xl text-rose-800 mb-2 bg-white border-2 rounded-r-lg border-white w-56 mt-5'>
             <h2>Personal Experience</h2>
           </div>
           <div className='flex flex-col justify-evenly h-auto border-b-2 border-white m-5'>
@@ -79,3 +84,5 @@ export default function About() {
     </div>
   )
 }
+
+
