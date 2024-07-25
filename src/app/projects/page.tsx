@@ -6,42 +6,46 @@ import { projectsData } from '../data/data';
 export default function Projects() {
 
   return (
-    <div className='bg-gradient-reverse-blackCherry h-full w-screen mb-16 rounded-lg text-center items-center flex flex-col pt-1 text-white'>
-      <div className='m-6'>
-        <div className=' w-screen'>
-          <h1 className=' text-2xl w-1/2 border-2 border-white border-l-0 rounded-r-lg'>Projects</h1>
+    <div className='bg-gradient-reverse-blackCherry h-full w-screen rounded-lg  text-center items-center flex flex-col sm:w-full '>
+      <div className='sm:flex sm:flex-col sm:justify-center sm:text-center sm:items-center sm:w-full'>
+        <div className=' w-screen sm:w-full'>
+          <h1 className=' text-2xl w-1/2 border-2 my-2 border-white border-l-0 rounded-r-lg'>Projects</h1>
         </div>
-        <div className='text-base my-5 p-2'>
+        <div className='text-base sm:w-full my-2'>
           <p>
             During these 4 years I have carried out projects of all kinds, from a simple login without java script to complex projects about which I have been learning a lot, about responsive design, components, state management, use of redux toolkit, application programming for phones, deployment. to clouds like Firebse, etc.
           </p>
         </div>
-        {
-          projectsData.map((project) => (
-            <div key={project.id} className='mb-10'>
-              <div className='flex flex-col items-center'>
-                <Image
-                  height={project.height}
-                  width={project.width}
-                  src={project.img}
-                  alt={project.name}
-                  className='rounded-lg'
-                />
+        <div className=' sm:w-full sm:px-2'>
+          {
+            projectsData.map((project) => (
+              <div key={project.id} className='my-5  sm:w-full'>
+                <div className='flex flex-col items-center'>
+                  <Image
+                    height={project.height}
+                    width={project.width}
+                    src={project.img}
+                    alt={project.name}
+                    className='rounded-lg'
+                  />
+                </div>
+                <div className=' border-b-2 border-rose-400 flex flex-col items-start sm:w-full'>
+                  <a className='hover:text-gray-300 ' href={project.url} target='_blank' rel='noopener noreferrer'>
+                    <h2 className='text-xl border-b-2 border-white'>{project.name}</h2>
+                  </a>
+                  <p className='text-start text-sm my-3'>{project.description}</p>
+                  <p>Language: {project.language}</p>
+                </div>
               </div>
-              <div className=' border-b-2 border-rose-400 p-4 flex flex-col items-start'>
-                <a className='hover:text-gray-300 ' href={project.url} target='_blank' rel='noopener noreferrer'>
-                  <h2 className='text-xl border-b-2 border-white'>{project.name}</h2>
-                </a>
-                <p className='text-start text-sm my-3'>{project.description}</p>
-                <p>Language: {project.language}</p>
-              </div>
-            </div>
-          ))
-        }
+            ))
+          }
+        </div>
       </div>
-      <div>
-        <div><p className='w-screen text-start text-xl px-2'> Also you can see some of my hosts projects</p></div>
-        <div className="p-2">
+      <div className=' sm:w-full'>
+        <div>
+          <p className='w-screen sm:w-full text-start text-xl px-2 '> Also you can see some of my hosts projects</p>
+        </div>
+        <div className="p-2 ">
           <a
             href="https://react-hooks-resumen.web.app/"
             className="text-blue-400"
@@ -67,7 +71,7 @@ export default function Projects() {
             analog, stopwatch and a timer to
           </p>
         </div>
-        <div>
+        <div className='pb-2'>
           <a
             href="https://calculator-app-644e1.web.app/"
             className="text-blue-400"
