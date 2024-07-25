@@ -42,7 +42,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id='1' className=' bg-transparent backdrop-blur-lg h-screen w-screen rounded-lg flex flex-col text-center items-center justify-evenly content-center mb-5 p-5 sm:w-1/2 border-2 border-white  sm:w-full'>
+      <div id='1' className=' bg-transparent backdrop-blur-lg h-screen w-screen rounded-lg flex flex-col text-center items-center justify-evenly content-center mb-5 p-5 sm:w-full border-2 border-white  '>
         <div className='border-b-2 border-white border-double h-max '>
           <div className='text-start mb-2 text-slate-200'>
             <h1 className={`text-2xl`}>Resume</h1>
@@ -56,13 +56,13 @@ export default function Home() {
             <p>since 2020 when i started in this world, i has been studing and put in practice all my knokledge as in personal projects as proffesinal projects </p>
           </div>
         </div>
-        <div className='w-full mb-10 flex flex-col items-center'>
+        <div className='w-full mb-10 flex flex-col items-center '>
           <div className='flex flex-row items-center content-center justify-stretch text-2xl my-5 px-5  w-full '>
             <GiSkills />
             <h2>Skills</h2>
           </div>
-          <div className='text-xl text-start '>
-            <ul className='sm:flex sm:flex-row sm:justify-center sm:w-screen sm:flex-wrap sm:px-2'>
+          <div className='text-xl text-start  sm:w-full'>
+            <ul className='sm:flex sm:flex-row sm:flex-wrap'>
               <li className='sm:m-2'>-HTML</li>
               <li className='sm:m-2'>-CSS</li>
               <li className='sm:m-2'>-Java Script</li>
