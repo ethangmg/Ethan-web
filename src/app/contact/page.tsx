@@ -5,12 +5,13 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { FaAngellist } from "react-icons/fa";
 
 export default function Contact() {
   const [isShow, setIsShow] = React.useState(true)
   return (
-    <div className='h-screen bg-gradient-reverse-blackCherry flex flex-col items-center text-white'>
-      <div className='text-2xl m-5 w-screen text-center'>
+    <div className='h-screen w-screen sm:w-full bg-gradient-reverse-blackCherry flex flex-col items-center text-white'>
+      <div className='text-2xl m-5 w-screen sm:w-full text-center'>
         <h1 className='border-b-2 border-r-2 border-white w-1/2 rounded-sm'>Contact Me</h1>
       </div>
       <div className='p-5 text-lg'>
@@ -18,7 +19,7 @@ export default function Contact() {
           If you need to contact me, do not hesitate to do so.
         </p>
       </div>
-      <div className='flex flex-col items-center justify-start w-40 text-3xl'>
+      <div className='flex flex-col items-center justify-start w-40 text-3xl sm:flex sm:flex-row sm:justify-around sm:border-2 sm:border-white sm:rounded-lg  sm:w-1/2'>
         <div className='my-2'>
           <a href='https://www.linkedin.com/in/ethan-mart%C3%ADnez-553a9b289/'>
             <FaLinkedin />
@@ -45,6 +46,9 @@ export default function Contact() {
         <p>
           Thank you so much for your attention
         </p>
+      </div>
+      <div className='text-9xl'>
+        <FaAngellist />
       </div>
     </div>
   )
