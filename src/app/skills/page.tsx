@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function Skills() {
   return (
-    <div className='h-screen bg-gradient-reverse-blackCherry flex flex-col items-center text-white'>
-      <div className='m-5 text-2xl flex flex-row w-screen'>
+    <div className='h-screen bg-gradient-reverse-blackCherry flex flex-col items-center text-white sm:w-full '>
+      <div className='m-5 text-2xl flex flex-row w-screen sm:w-full'>
         <div className='border-2 border-l-0 border-white w-1/2 flex flex-row content-end justify-end text-end pr-2 rounded-r-lg'>
           <h1>Skills</h1>
         </div>
       </div>
-      <div className='border-b-2 border-white w-screen px-2 text-sm'>
-        <ul className='h-48 flex flex-wrap'>
+      <div className=' w-screen px-2 text-sm sm:w-full'>
+        <ul className='h-48 flex flex-wrap sm:h-10'>
           <li className='mx-2'>-React </li>
           <li className='mx-2'>-JavaScript</li>
           <li className='mx-2'>-CSS </li>
@@ -26,22 +26,22 @@ export default function Skills() {
           <li className='mx-2'>-NPM </li>
         </ul>
       </div>
-      <div className='text-lg p-4'>
+      <div className='text-lg p-4 '>
         <p>Also during this 4 years since 2020 i got other soft skills as:</p>
       </div>
-      <div className='text-sm'>
-        <ul>
-          <li>-Good communication</li>
-          <li>-Feedback every day</li>
-          <li>-Always wanting to learn more</li>
-          <li>-Resilience</li>
-          <li>-Patience</li>
-          <li>-Problem-solving skills</li>
-          <li>-Adaptability</li>
-          <li>-Self-motivation</li>
-          <li>-Teamwork</li>
-          <li>-Creative thinking</li>
-          <li>-Time management</li>
+      <div className='text-sm '>
+        <ul className='sm:h-80 '>
+          <li className='my-1'>-Good communication</li>
+          <li className='my-1'>-Feedback every day</li>
+          <li className='my-1'>-Always wanting to learn more</li>
+          <li className='my-1'>-Resilience</li>
+          <li className='my-1'>-Patience</li>
+          <li className='my-1'>-Problem-solving skills</li>
+          <li className='my-1'>-Adaptability</li>
+          <li className='my-1'>-Self-motivation</li>
+          <li className='my-1'>-Teamwork</li>
+          <li className='my-1'>-Creative thinking</li>
+          <li className='my-1'>-Time management</li>
         </ul>
       </div>
     </div>

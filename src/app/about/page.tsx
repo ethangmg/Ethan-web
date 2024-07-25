@@ -5,7 +5,7 @@ export default function About() {
 
   return (
     <div className='bg-gradient-reverse-blackCherry h-screen w-screen  rounded-lg text-center items-center flex flex-col  text-white sm:w-full sm:h-full'>
-      <div className='sm:w-3/4 border-2 border-white my-2'>
+      <div className='sm:w-3/4 border-2 border-white my-2 py-10'>
         <div className='text-2xl text-rose-800 bg-white border-2 rounded-r-lg border-white w-56 '>
           <h1>Personal Resume</h1>
         </div>
