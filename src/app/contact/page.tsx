@@ -10,7 +10,7 @@ import { FaAngellist } from "react-icons/fa";
 export default function Contact() {
   const [isShow, setIsShow] = React.useState(true)
   return (
-    <div className='h-screen w-screen sm:w-full bg-gradient-reverse-blackCherry flex flex-col items-center text-white'>
+    <div className='h-screen w-screen sm:w-full bg-gradient-light-rose-reverse dark:bg-gradient-reverse-blackCherry flex flex-col items-center text-white'>
       <div className='text-2xl m-5 w-screen sm:w-full text-center'>
         <h1 className='border-b-2 border-r-2 border-white w-1/2 rounded-sm'>Contact Me</h1>
       </div>

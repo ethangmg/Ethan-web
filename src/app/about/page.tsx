@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function About() {
 
   return (
-    <div className='bg-gradient-teal h-screen w-screen  rounded-lg text-center items-center flex flex-col  text-white sm:w-full sm:h-full'>
+    <div className='bg-gradient-light-teal  dark:bg-gradient-teal h-screen w-screen  rounded-lg text-center items-center flex flex-col text-gray-200 dark:text-white sm:w-full sm:h-full '>
       <div className='sm:w-3/4 border-2 border-white rounded-lg my-2 py-10'>
         <div className='text-2xl text-rose-800 bg-white border-2 rounded-r-lg border-white w-56 '>
           <h1>Personal Resume</h1>
@@ -17,7 +17,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className=' bg-gray-950 bg-gradient-teal h-screen rounded-lg  border-2 border-white sm:h-auto'>
+      <div className=' bg-gradient-light-teal-reverse h-screen rounded-lg  sm:h-auto'>
         <div>
           <div className='text-2xl text-rose-800 pb-2 bg-white border-2 rounded-r-lg border-white w-56 mt-5'>
             <h2 >Proffessional Work Experience</h2>
@@ -40,7 +40,7 @@ export default function About() {
             </ul>
           </div>
         </div>
-        <div className='bg-gradient-reverse-blackCherry my-2'>
+        <div className='dark:bg-gradient-reverse-blackCherry bg-gradient-light-rose-reverse  my-2'>
           <div className='text-2xl text-rose-800 mb-2 bg-white border-2 rounded-r-lg border-white w-56 mt-5'>
             <h2>Personal Experience</h2>
           </div>
