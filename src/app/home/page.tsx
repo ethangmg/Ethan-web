@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import React from 'react'
-import Image1 from '../assets/Nissan.jpg'
+import Image1 from '../assets/20240614_192922.jpg'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
@@ -42,7 +42,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id='1' className=' bg-transparent backdrop-blur-lg h-screen w-screen rounded-lg flex flex-col text-center items-center justify-evenly content-center mb-5 p-5 sm:w-full border-2 border-white  '>
+      <div id='1' className=' bg-transparent backdrop-blur-lg h-screen w-screen rounded-lg flex flex-col text-center items-center justify-evenly content-center mb-5 p-5 sm:w-full  '>
         <div className='border-b-2 border-white border-double h-max '>
           <div className='text-start mb-2 text-slate-200'>
             <h1 className={`text-2xl`}>Resume</h1>
