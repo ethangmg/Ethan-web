@@ -1,13 +1,16 @@
 "use client"
 
-import Home from "./home/page";
+import ThemeContextProvider from "./Components/Context/ThemeContextProvider";
+import MyApp from './myApp/page'
 
 
 
 export default function Main() {
   return (
     <>
-      <Home />
+      <ThemeContextProvider>
+        <MyApp />
+      </ThemeContextProvider>
     </>
   );
 }

@@ -6,7 +6,7 @@ import { projectsData } from '../data/data';
 export default function Projects() {
 
   return (
-    <div className='bg-gradient-reverse-blackCherry h-full w-screen rounded-lg  text-center items-center flex flex-col sm:w-full text-white'>
+    <div className='bg-gradient-light-teal  dark:bg-gradient-teal h-full w-screen rounded-lg  text-center items-center flex flex-col sm:w-full text-white'>
       <div className='sm:flex sm:flex-col sm:justify-center sm:text-center sm:items-center sm:w-full'>
         <div className=' w-screen sm:w-full'>
           <h1 className=' text-2xl w-1/2 border-2 my-2 border-white border-l-0 rounded-r-lg'>Projects</h1>

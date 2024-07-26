@@ -6,13 +6,14 @@ import Image1 from '../assets/20240614_192922.jpg'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
+import { MdDarkMode } from "react-icons/md";
 
 
 export default function Home() {
 
   return (
-    <div className=' h-full w-full bg-gray-950 bg-gradient-teal flex flex-col items-center text-white '>
-      <div id='0' className='bg-gradient-reverse-blackCherry h-screen w-screen rounded-lg flex flex-col text-center items-center justify-center content-center my-5 border-2 border-white sm:w-full'>
+    <div className=' h-full w-full bg-gradient-light-teal  dark:bg-gradient-teal flex flex-col items-center dark:text-white text-rose-950'>
+      <div id='0' className='dark:bg-gradient-reverse-blackCherry border-2 border-teal-900 bg-gradient-light-rose-reverse  h-screen w-screen rounded-lg flex flex-col text-center items-center justify-center content-center my-5 dark:border-2 dark:border-white sm:w-full'>        
         <div className=''>
           <Image
             className='rounded-full my-5 w-52 h-52 '
