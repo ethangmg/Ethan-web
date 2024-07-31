@@ -26,7 +26,7 @@ export default function Skills() {
           <li className='mx-2'>-NPM </li>
           <li className='mx-2'>-Jest </li>
           <li className='mx-2'>-React Testing Library </li>
-          <li className='mx-2'>-Cypress io</li>
+          <li className='mx-2'>-NPM </li>
         </ul>
       </div>
       <div className='text-lg p-4 '>
