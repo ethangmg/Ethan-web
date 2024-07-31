@@ -1,10 +1,10 @@
 'use client'
 
 import React from 'react'
-import Link from 'next/link'
-import blackCherry from './gradient-texture-light-cherry-pink-260nw-2082592552~2.jpg'
+
 import { MdDarkMode } from "react-icons/md";
 import ThemeContextProvider, { useTheme } from '../Components/Context/ThemeContextProvider';
+import Link from 'next/link';
 
 
 
@@ -90,6 +90,7 @@ export default function Navigation() {
                                                 </button>
                                             </div>
                                             <Link
+
                                                 className="text-gray-50 hover:bg-rose-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium focus:border-b-white focus:border-b-2"
                                                 href={"/home"}
                                             >
@@ -158,7 +159,6 @@ export default function Navigation() {
                                     className="text-gray-300 hover:bg-rose-500 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
                                     aria-current="page"
                                     href={"/home"}
-
                                 >
                                     Home
                                 </Link>
@@ -198,7 +198,6 @@ export default function Navigation() {
                                 >
                                     Contact
                                 </Link>
-
 
                             </div>
                         </div>

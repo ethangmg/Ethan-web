@@ -24,6 +24,9 @@ export default function Skills() {
           <li className='mx-2'>-React Native Expo </li>
           <li className='mx-2'>-Git & Github </li>
           <li className='mx-2'>-NPM </li>
+          <li className='mx-2'>-Jest </li>
+          <li className='mx-2'>-React Testing Library </li>
+          <li className='mx-2'>-Cypress io</li>
         </ul>
       </div>
       <div className='text-lg p-4 '>
