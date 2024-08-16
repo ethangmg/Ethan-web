@@ -1,3 +1,4 @@
+import Image6 from '../assets/Screenshot_20240816_114055_calculator-mobile-app.jpg'
 import Image5 from "../assets/Screenshot 2024-06-17 113402.png";
 import Image4 from "../assets/Screenshot 2024-06-17 113906.png";
 import Image3 from "../assets/Screenshot 2024-06-17 114340.png";
@@ -33,6 +34,16 @@ export const projectsData = [{
     img: Image2,
     height: 100,
     width: 200,
+  },
+  {
+    id: 3,
+    language: "React Native",
+    url: "https://github.com/ethangmg/Calculator-mobile",
+    name: "Calculator App",
+    description: "An Mobile App based on a calculator",
+    img: Image6,
+    height: 250,
+    width: 350,
   },
   {
     id: 3,
