@@ -9,7 +9,7 @@ export default function Skills() {
         </div>
       </div>
       <div className=' w-screen px-2 text-sm sm:w-full'>
-        <ul className='h-48 flex flex-wrap sm:h-10'>
+        <ul className='h-48 flex flex-wrap sm:h-48'>
           <li className='mx-2'>-React </li>
           <li className='mx-2'>-JavaScript</li>
           <li className='mx-2'>-CSS </li>
@@ -26,7 +26,7 @@ export default function Skills() {
           <li className='mx-2'>-NPM </li>
           <li className='mx-2'>-Jest </li>
           <li className='mx-2'>-React Testing Library </li>
-          <li className='mx-2'>-NPM </li>
+          <li className='mx-2'>-Cypress.io </li>
         </ul>
       </div>
       <div className='text-lg p-4 '>

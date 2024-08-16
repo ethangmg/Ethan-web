@@ -48,7 +48,7 @@ export default function Projects() {
         <div className="p-2 ">
           <a
             href="https://react-hooks-resumen.web.app/"
-            className="text-blue-400"
+            className="text-blue-400 sm:text-rose-400"
 
           >
             {" "}
@@ -62,7 +62,7 @@ export default function Projects() {
         <div className='my-5'>
           <a
             href="https://clock-app-7941c.web.app/"
-            className="text-blue-400"
+            className="text-blue-400 sm:text-rose-400"
           >
             Clock Web Page
           </a>
@@ -74,7 +74,7 @@ export default function Projects() {
         <div className='pb-2'>
           <a
             href="https://calculator-app-644e1.web.app/"
-            className="text-blue-400"
+            className="text-blue-400 sm:text-rose-400"
           >
             Calculator Web Page
           </a>
