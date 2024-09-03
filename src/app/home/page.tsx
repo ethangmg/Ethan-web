@@ -2,11 +2,11 @@
 
 import Image from 'next/image'
 import React from 'react'
-import Image1 from '../assets/20240614_192922.jpg'
+import Image1 from '../assets/20240823_162552 (2).jpg'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
-import { MdDarkMode } from "react-icons/md";
+
 
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
       <div id='0' className='dark:bg-gradient-reverse-blackCherry border-2 border-teal-900 bg-gradient-light-rose-reverse  h-screen w-screen rounded-lg flex flex-col text-center items-center justify-center content-center my-5 dark:border-2 dark:border-white sm:w-full'>        
         <div className=''>
           <Image
-            className='rounded-full my-5 w-52 h-52 '
+            className='rounded-full my-5 w-48 h-60'
             src={Image1}
             alt='Sample Image'
           />
