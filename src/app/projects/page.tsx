@@ -36,6 +36,11 @@ export default function Projects() {
                   <p className='text-start text-sm my-3'>{project.description}</p>
                   <p>Language: {project.language}</p>
                 </div>
+                <div>
+                  <button className='bg-blue-500 font-bold w-28 h-8 rounded-lg my-5'>
+                    <a href={''}>Download</a>
+                  </button>
+                </div>
               </div>
             ))
           }
@@ -82,6 +87,12 @@ export default function Projects() {
             This is a web calculator with the basic functions of a
             calculator
           </p>
+        </div>
+      </div>
+      <div className=' w-screen sm:w-full flex flex-col items-center'>
+        <p>For Download my apps</p>
+        <div className='bg-blue-500 font-bold w-28 h-8 rounded-lg my-5'>
+          <a href='https://download-page-nine.vercel.app/home'>Go!</a>
         </div>
       </div>
     </div >
