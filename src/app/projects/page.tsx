@@ -92,7 +92,7 @@ export default function Projects() {
       <div className=' w-screen sm:w-full flex flex-col items-center'>
         <p>For Download my apps</p>
         <div className='bg-blue-500 font-bold w-28 h-8 rounded-lg my-5'>
-          <a href='https://download-page-nine.vercel.app/home'>Go!</a>
+          <a href='https://download-page-nine.vercel.app/home'>Go!!!</a>
         </div>
       </div>
     </div >
